@@ -1,4 +1,80 @@
+:root {
 
+    /* =========================
+       Colors
+       ========================= */
+
+    --color-black: #1C232B;
+    --color-grey: #6C7289;
+    --color-cream: #F2EAE2;
+    --color-white: #FFFFFF;
+    --color-green-500: #3D8168;
+    --color-green-700: #1A4032;
+
+
+    /* =========================
+       Fonts
+       ========================= */
+
+    --font-heading: "Fraunces", serif;
+    --font-body: "Montserrat", sans-serif;
+
+
+    /* =========================
+       Typography Presets
+       ========================= */
+
+    /* Preset 1 — Product name */
+    --text-preset-1-font-family: var(--font-heading);
+    --text-preset-1-font-size: 32px;
+    --text-preset-1-font-weight: 700;
+    --text-preset-1-line-height: 100%;
+    --text-preset-1-letter-spacing: 0;
+
+
+    /* Preset 2 — Price */
+    --text-preset-2-font-family: var(--font-body);
+    --text-preset-2-font-size: 14px;
+    --text-preset-2-font-weight: 700;
+    --text-preset-2-line-height: 110%;
+    --text-preset-2-letter-spacing: 0;
+
+
+    /* Preset 3 — Description */
+    --text-preset-3-font-family: var(--font-body);
+    --text-preset-3-font-size: 14px;
+    --text-preset-3-font-weight: 500;
+    --text-preset-3-line-height: 160%;
+    --text-preset-3-letter-spacing: 0;
+
+
+    /* Preset 4 — Category */
+    --text-preset-4-font-family: var(--font-body);
+    --text-preset-4-font-size: 12px;
+    --text-preset-4-font-weight: 500;
+    --text-preset-4-line-height: 120%;
+    --text-preset-4-letter-spacing: 5px;
+
+
+    /* Preset 5 — Button */
+    --text-preset-5-font-family: var(--font-body);
+    --text-preset-5-font-size: 14px;
+    --text-preset-5-font-weight: 700;
+    --text-preset-5-line-height: 110%;
+    --text-preset-5-letter-spacing: 0;
+
+
+    /* =========================
+       Spacing
+       ========================= */
+
+    --spacing-500: 40px;
+    --spacing-400: 32px;
+    --spacing-300: 24px;
+    --spacing-200: 16px;
+    --spacing-100: 8px;
+    --spacing-50: 4px;
+}
 
 
 
