@@ -85,6 +85,11 @@ body {
 
 }
 
+main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
 .card-component {
     background: var(--color-white);
     border-radius: 8px;
@@ -107,10 +112,10 @@ body {
    display: flex;
    flex-direction: column;
    align-items: flex-start;
-   justify-content: center;
+   justify-content: space-evenly;
    padding-left: var(--spacing-300);
    padding-right: var(--spacing-300);
-   gap: var(--spacing-200);
+
 }
 
 button {
