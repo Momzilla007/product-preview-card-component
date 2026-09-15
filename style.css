@@ -116,6 +116,11 @@ img {
     height: 100% !important;
     object-fit: cover;
 }
+
+.desktop-img {
+    display: none;
+}
+
 p.card-title {
     font-family: var(--text-preset-4-font-family);
     font-size: var(--text-preset-4-font-size);
@@ -134,9 +139,15 @@ h1 {
     font-weight: var(--text-preset-1-font-weight);
 }
 
-.desktop-img {
-    display: none;
+main div {
+    font-family: var(--text-preset-3-font-family);
+    font-size: var(--text-preset-3-font-size);
+    color: var(--color-grey);
+    letter-spacing: var(--text-preset-3-letter-spacing);
+    line-height: var(--text-preset-3-line-height);
+    font-weight: var(--text-preset-3-font-weight);
 }
+
 
 /* Footer section */
 .attribution { 
