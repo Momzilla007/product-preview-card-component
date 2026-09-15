@@ -149,12 +149,27 @@ main div {
 }
 
 div .sale-price {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: var(--spacing-200);
     font-family: var(--text-preset-1-font-family);
     font-size: var(--text-preset-1-font-size);
     color: var(--color-green-500);
     letter-spacing: var(--text-preset-1-letter-spacing);
     line-height: var(--text-preset-1-line-height);
     font-weight: var(--text-preset-1-font-weight);
+}
+
+.reg-price {
+    font-family: var(--text-preset-5-font-family);
+    font-size: var(--text-preset-5-font-size);
+    color: var(--color-grey);
+    letter-spacing: var(--text-preset-5-letter-spacing);
+    line-height: var(--text-preset-5-line-height);
+    font-weight: var(--text-preset-5-font-weight);
+    
+
 }
 
 
