@@ -86,6 +86,7 @@ body {
 }
 
 main {
+    flex: 1;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -130,7 +131,7 @@ button {
     height: 3.125rem;
 
 }
-
+/* styling for the button */
 button img {
     width: auto;
 }
@@ -146,6 +147,12 @@ button img {
     object-fit: scale-down;
 }
 
+.add-to-cart:hover {
+    background-color: var(--color-green-700);
+    cursor: pointer;
+
+}
+/* end of styling for the button */
 
 img {
     display: block;
@@ -153,6 +160,8 @@ img {
     height: 100% !important;
     object-fit: cover;
 }
+
+
 
 .desktop-img {
     display: none;
@@ -210,6 +219,14 @@ div .sale-price {
 }
 
 /* Footer section */
+
+footer {
+     display: flex;
+     flex-direction: row;
+
+    
+}
+
 .attribution { 
     font-size: 0.6875rem; 
     text-align: center; 
