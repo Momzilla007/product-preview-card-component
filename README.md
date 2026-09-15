@@ -15,9 +15,7 @@ This is a solution to the [Product preview card component challenge on Frontend 
   - [Useful resources](#useful-resources)
   - [AI Collaboration](#ai-collaboration)
 - [Author](#author)
-- [Acknowledgments](#acknowledgments)
 
-**Note: Delete this note and update the table of contents based on what sections you keep.**
 
 ## Overview
 
@@ -30,22 +28,36 @@ Users should be able to:
 
 ### Screenshot
 
-![](./screenshot.jpg)
+![desktop screenshot](./desktop-screenshot.png)
 
-Add a screenshot of your solution. The easiest way to do this is to use Firefox to view your project, right-click the page and select "Take a Screenshot". You can choose either a full-height screenshot or a cropped one based on how long the page is. If it's very long, it might be best to crop it.
+![mobile screenshot](./mobile-screenshot.png)
 
-Alternatively, you can use a tool like [FireShot](https://getfireshot.com/) to take the screenshot. FireShot has a free option, so you don't need to purchase it. 
+![tablet screenshot](./tablet-screenshot.png)
 
-Then crop/optimize/edit your image however you like, add it to your project, and update the file path in the image above.
 
-**Note: Delete this note and the paragraphs above when you add your screenshot. If you prefer not to add a screenshot, feel free to remove this entire section.**
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Solution URL: [GitHub](https://github.com/Momzilla007/blog-preview-card.git)
+- Live Site URL: [Netlify](https://ad-product-preview-card-component.netlify.app/)
 
 ## My process
+
+1. Reviewed the design/challenge requirements for the project.
+2. Initialized git and did initial setup commit.
+3. Built the HTML skeleton and added semantic elements where appropriate.
+4. Added in images and meaningful alt text.
+5. Added reset.css and set up external css stylesheet.
+6. Set the CSS custom properties for fonts, colors, and spacing.
+7. Used flexbox and grid to organize content. 
+8. Focused on mobile-first design.
+9. Used desktop/tablet media queries to set layout for larger screens. 
+10. Made any fixes needed to better reflect the mockup (prototype). 
+11. Git commits throughout when necassary. 
+12. Complete README to prepare for project submission. 
+13. Run validation on css and html.
+14. No issues found - Final git commit, and then Submitted to Front End Mentor. 
+
 
 ### Built with
 
@@ -54,70 +66,39 @@ Then crop/optimize/edit your image however you like, add it to your project, and
 - Flexbox
 - CSS Grid
 - Mobile-first workflow
-- [React](https://reactjs.org/) - JS library
-- [Next.js](https://nextjs.org/) - React framework
-- [Styled Components](https://styled-components.com/) - For styles
-
-**Note: These are just examples. Delete this note and replace the list above with your own choices**
 
 ### What I learned
 
-Use this section to recap over some of your major learnings while working through this project. Writing these out and providing code samples of areas you want to highlight is a great way to reinforce your own knowledge.
+In this project, I learned to use flexbox and grid together to make a responsive card. I also learned a bit more about custom font properties and how to use figma to set the style properties and layout exactly as the design so the web page looks as close as possible to the mock up (prototype). 
 
-To see how you can add code snippets, see below:
+Working on this mobile-first was a bit different for me and I think I like that. It makes it a heck of a lot easier to set up the layout and make the page responsive. 
 
-```html
-<h1>Some HTML code I'm proud of</h1>
-```
-```css
-.proud-of-this-css {
-  color: papayawhip;
-}
-```
-```js
-const proudOfThisFunc = () => {
-  console.log('🎉')
-}
-```
+I've had experience using media queiries before, but this time, I think focusing on building mobile-first really helped to cut back on the amount of media queries that needed to be set. 
 
-If you want more help with writing markdown, we'd recommend checking out [The Markdown Guide](https://www.markdownguide.org/) to learn more.
-
-**Note: Delete this note and the content within this section and replace with your own learnings.**
 
 ### Continued development
 
-Use this section to outline areas that you want to continue focusing on in future projects. These could be concepts you're still not completely comfortable with or techniques you found useful that you want to refine and perfect.
+I will continue to learn more about clamp and responsiveness. Mobile-first is going to be how I approach all my front end development in the future too. If, of course, mobile is required, which I'm pretty sure it will be. That seems to be the screen of choice for most people these days. 
 
-**Note: Delete this note and the content within this section and replace with your own plans for continued development.**
+Looking forward to the next challenge on FEM because I'm learning so much and as long as I have some free time to do it, I will carry on with this. 
+
 
 ### Useful resources
 
-- [Example resource 1](https://www.example.com) - This helped me for XYZ reason. I really liked this pattern and will use it going forward.
-- [Example resource 2](https://www.example.com) - This is an amazing article which helped me finally understand XYZ. I'd recommend it to anyone still learning this concept.
+- [MDN Clamp()](https://developer.mozilla.org/en-US/docs/Web/CSS/Reference/Values/clamp) - Used Mdn to help understand clamp better and set the attributes correctly. 
 
-**Note: Delete this note and replace the list above with resources that helped you during the challenge. These could come in handy for anyone viewing your solution or for yourself when you look back on this project in the future.**
+- [css-tricks.com](https://css-tricks.com/a-complete-guide-to-custom-properties/) - I loved this guide as it delves much deeper into what you can do with css custom properties.
+
 
 ### AI Collaboration
 
-Describe how you used AI tools (if any) during this project. This helps demonstrate your ability to work effectively with AI assistants.
+To help me understand custom css properties much better, I used ChatGPT to help set them up and explain how they work and how to use them. I actually really liked using AI for this. It was immensely helpful and saved me a lot of time in setting that up. I think I would actually simplify the names of the presets for the custom properties a bit as they do seem a bit much to me, and I suppose I could still do that but they work and I'm eager to move on to the next section. I will say that I am pretty confident I understand now how to set custom css properties for fonts, colors, etc. I still think AI shouldn't be used to build a website on it's own, but as a tool (and for learning), it's quite handy.
 
-- What tools did you use (e.g., ChatGPT, Claude, GitHub Copilot)?
-- How did you use them (e.g., debugging, generating boilerplate, brainstorming solutions)?
-- What worked well? What didn't?
-
-**Note: Delete this note and the content above if you didn't use AI, or replace with your own experience.**
 
 ## Author
 
-- Website - [Add your name here](https://www.your-site.com)
-- Frontend Mentor - [@yourusername](https://www.frontendmentor.io/profile/yourusername)
-- Twitter - [@yourusername](https://www.twitter.com/yourusername)
+- Website - [Andrea Dyson](https://itsocodedesign.ca/)
+- Frontend Mentor - [@momzilla007](https://www.frontendmentor.io/profile/Momzilla007)
+- LinkedIn - [Andrea Dyson](https://www.linkedin.com/in/andrea-dyson-33994056/)
 
-**Note: Delete this note and add/remove/edit lines above based on what links you'd like to share.**
 
-## Acknowledgments
-
-This is where you can give a hat tip to anyone who helped you out on this project. Perhaps you worked in a team or got some inspiration from someone else's solution. This is the perfect place to give them some credit.
-
-**Note: Delete this note and edit this section's content as necessary. If you completed this challenge by yourself, feel free to delete this section entirely.**
-# product-preview-card-component

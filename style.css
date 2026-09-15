@@ -118,7 +118,7 @@ main {
    padding-right: var(--spacing-300);
 
 }
-
+/* styling for the button */
 button {
     display: flex;
     flex-direction: row;
@@ -131,7 +131,7 @@ button {
     height: 3.125rem;
 
 }
-/* styling for the button */
+
 button img {
     width: auto;
 }
