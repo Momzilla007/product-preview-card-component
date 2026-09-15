@@ -148,6 +148,15 @@ main div {
     font-weight: var(--text-preset-3-font-weight);
 }
 
+div .sale-price {
+    font-family: var(--text-preset-1-font-family);
+    font-size: var(--text-preset-1-font-size);
+    color: var(--color-green-500);
+    letter-spacing: var(--text-preset-1-letter-spacing);
+    line-height: var(--text-preset-1-line-height);
+    font-weight: var(--text-preset-1-font-weight);
+}
+
 
 /* Footer section */
 .attribution { 
