@@ -149,7 +149,6 @@ button img {
 
 .add-to-cart:hover {
     background-color: var(--color-green-700);
-    cursor: pointer;
 
 }
 /* end of styling for the button */
