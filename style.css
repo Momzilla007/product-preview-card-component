@@ -123,9 +123,17 @@ p.card-title {
     letter-spacing: var(--text-preset-4-letter-spacing);
     line-height: var(--text-preset-4-line-height);
     font-weight: var(--text-preset-4-font-weight);
-    
-
 }
+
+h1 {
+    font-family: var(--text-preset-1-font-family);
+    font-size: var(--text-preset-1-font-size);
+    color: var(--color-black);
+    letter-spacing: var(--text-preset-1-letter-spacing);
+    line-height: var(--text-preset-1-line-height);
+    font-weight: var(--text-preset-1-font-weight);
+}
+
 .desktop-img {
     display: none;
 }
