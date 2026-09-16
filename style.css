@@ -184,7 +184,7 @@ h1 {
     font-weight: var(--text-preset-1-font-weight);
 }
 
-main div {
+.product-description {
     font-family: var(--text-preset-3-font-family);
     font-size: var(--text-preset-3-font-size);
     color: var(--color-grey);
