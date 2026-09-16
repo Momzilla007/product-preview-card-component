@@ -56,7 +56,9 @@ Users should be able to:
 11. Git commits throughout when necassary. 
 12. Complete README to prepare for project submission. 
 13. Run validation on css and html.
-14. No issues found - Final git commit, and then Submitted to Front End Mentor. 
+14. No issues found.
+15. Fix overflow issue on footer attribution.
+16. Final git commit, and then Submitted to Front End Mentor. 
 
 
 ### Built with
