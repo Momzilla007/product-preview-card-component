@@ -38,7 +38,7 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [GitHub](https://github.com/Momzilla007/blog-preview-card.git)
+- Solution URL: [GitHub](https://github.com/Momzilla007/product-preview-card-component.git)
 - Live Site URL: [Netlify](https://ad-product-preview-card-component.netlify.app/)
 
 ## My process
