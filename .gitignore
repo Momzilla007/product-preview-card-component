@@ -16,6 +16,6 @@
 .prettierignore
 
 # FEM files to ignore
-.README-Old.md
-.AGENTS.md
-.CLAUDE.md
+README-Old.md
+AGENTS.md
+CLAUDE.md
