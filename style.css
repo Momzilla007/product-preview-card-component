@@ -145,6 +145,12 @@ button img {
     letter-spacing: var(--text-preset-2-letter-spacing);
     font-weight: var(--text-preset-2-font-weight);
     object-fit: scale-down;
+    gap: .25rem;
+}
+
+.cart-icon {
+    width: 1.125rem;
+    height: 1.125rem;
 }
 
 .add-to-cart:hover {
